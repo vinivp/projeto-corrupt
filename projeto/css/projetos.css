@@ -1,0 +1,160 @@
+/* geral */
+body {
+  margin: 0;
+  padding: 0%;
+  font-family: Roboto;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* navegação do cabeçalho */
+#navegar {
+  background: linear-gradient(rgb(245, 200, 0), #000000);
+  color: #FFF;
+  padding: 0 15px;
+  height: 60px;
+}
+
+#navegar h2, #navegar ul, #navegar-list li,#navegar nav {
+  display: inline-block;
+}
+
+#navegar h2 {
+  margin: 0;
+  line-height: 60px;
+  margin-left: 55px;
+}
+
+#navegar img {
+  height: 40px;
+  transform: rotate(0deg);
+  position: absolute;
+  top: 10px;
+}
+
+#navegar nav {
+  float: right;
+}
+
+#navegar ul {
+  margin-top: 22px;
+}
+
+#navegar li {
+  margin: 0 10px;
+}
+
+#navegar-list li a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#navegar-list li a:hover {
+  border-bottom: 1px solid rgb(0, 158, 179);
+  color: rgb(0, 158, 179);
+}
+
+/* Fundo do corpo */
+body section {
+  background: linear-gradient(black, black, blue);
+  height: 500px;
+  text-align: center;
+  color: #FFF;
+  padding-top: 1vh;
+}
+
+ /* banner */
+ #main-banner {
+  height: 70vh;
+  background-image: url("/img/bg-projeto.jpg");
+  background-size: cover;
+  padding-top: 15vh;
+  max-width:1200px;
+  Box-sizing: border-box;
+  Margin-left: auto; 
+  margin-right: auto;
+  Padding-left: 20px;   
+  Padding-right: 20px;   
+}
+
+#banner-info {
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: #FFF;
+  padding: 50px;
+}
+
+#banner-info img {
+  height: 120px;
+  border-radius: 50%;
+  background-color:transparent;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Cards de conteudos */
+.cards { 
+  display: inline-block; 
+  Display:Flex;
+  Flex-wrap: wrap;
+  Gap:20px;
+  Justify-content: Space-between;
+  Align-items: center;
+  Padding-bottom: 20px;
+}
+.card { 
+  margin: 10px; 
+  width: 300px; 
+  background-color: rgb(255, 255, 255); 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.card .image img {
+  max-width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card .content {
+  padding: 20px 30px;
+}
+
+.content h2 {
+  margin-bottom: 12px;
+}
+
+.btn-card{
+  border-radius: 5px;
+  height: 25px;
+  width: 100%;
+}
+
+.btn-card:hover {
+  background-color: rgb(44, 224, 44);
+}
+
+/* Fim */
+footer {
+  padding: 10px ;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-color:black;
+  width: 100%;
+}
+
+@media only screen and (max-device-width: 992px) {
+/* Para Laptop*/
+}
+
+@media only screen and (max-device-width: 768px) {
+/* Para Tablet */
+}
+
+@media only screen and (max-device-width: 600px) {
+/* Para Mobile */
+}
